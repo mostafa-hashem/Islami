@@ -27,7 +27,7 @@ class SettingsTab extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              showLanguageSheet(context);
+                showLanguageSheet(context);
             },
             child: Container(
               margin: const EdgeInsets.only(top: 12),
